@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent d-flex justify-content-between">
             <a class="navbar-brand" href="#">
                 <div class="d-flex justify-content-start">
-                    <img src="{{ asset('images/logo.jpg') }}" width='100px' height='70px' class="flouid">
+                    <img src="{{ asset('images/logo.jpg') }}" width='80px' height='70px' class="img-fluid">
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"

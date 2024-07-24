@@ -27,7 +27,7 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: #fff;
-    
+
 }
 
 .custom-color {
@@ -37,7 +37,7 @@
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0.03em;
-    text-align: left;    
+    text-align: left;
 
 }
 
@@ -67,8 +67,9 @@
     line-height: 30px;
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 15px 30px !important; 
+    padding: 15px 30px !important;
 }
+
 .btn-contact-red {
     background-color: #CF1D1D !important;
     color: white;
@@ -93,70 +94,110 @@
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    line-height:30px;
+    line-height: 30px;
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 15px 30px !important; 
+    padding: 15px 30px !important;
 }
 
 .gap-25 {
     gap: 25px;
 }
-.text-footer-1{
+
+.text-footer-1 {
     font-family: Poppins;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 20.15px;
-        letter-spacing: 0.03em;
-        text-align: justified;
-        color: #F8F8F8;;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.15px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #F8F8F8;
+    ;
 }
-   .custom-li {
-       list-style: none;
-       padding: 0;
-   }
 
-   .footer ul .custom-li {
-       display: inline-block;
-       margin: 10px;
-       align-items: center;
-   }
+.custom-li {
+    list-style: none;
+    padding: 0;
+}
 
-   .footer ul .custom-li a {
-       display:flex;
-       justify-content: center;
-       width: 40px;
-       height: 40px;
-       line-height: 50px;
-       border-radius: 50%;
-       background-color: #CF1D1D;
-       color: white;
-       text-align: center;
-       font-size: 20px;
-   }
-   .text-li-footer-main{
+.footer ul .custom-li {
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+
+.footer ul .custom-li a {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #CF1D1D;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-li-footer-main {
     font-family: Poppins;
-        font-size: 20.28px;
-        font-weight: 700;
-        line-height: 30.42px;
-        text-align: left;
-        color: #ffff;
-   }
-   .text-li-footer-sub{
+    font-size: 20.28px;
+    font-weight: 700;
+    line-height: 30.42px;
+    text-align: left;
+    color: #ffff;
+}
+
+.text-li-footer-sub {
     font-family: Poppins;
-        font-size: 18.03px;
-        font-weight: 300;
-        line-height: 40.56px;
-        text-align: left;
-        color: #ffff !important;
-   }
-   .nav-link{
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        color: #F8F8F8;
-   }
-   
+    font-size: 18.03px;
+    font-weight: 300;
+    line-height: 40.56px;
+    text-align: left;
+    color: #ffff !important;
+}
+
+.nav-link {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F8F8F8;
+}
+
+.about_us {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34.1px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #CF1D1D;
+}
+
+.text-about_us {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56.47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #11063D;
+}
+
+.text-about_us-mini {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #696969;
+
+}
+
+.main-color {
+    color: #CF1D1D;
+}
