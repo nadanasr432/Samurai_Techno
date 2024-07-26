@@ -20,31 +20,29 @@
                                  class="img-fluid mt-3 mb-3"></a></li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-none d-md-block">
                 <div class="text-li-footer-main">Pages</div>
                 <ul class="list-unstyled mt-4">
-                    <li class="text-li-footer-sub"><a class="text-white" href="#">Home</a></li>
-                    <li class="text-li-footer-sub"><a class="text-white" href="#">About Us</a></li>
-                    <li class="text-li-footer-sub"><a class="text-white" href="#">Services</a></li>
-                    <li class="text-li-footer-sub"><a class="text-white" href="#">Projects</a></li>
-                </ul>
+                    <li class="text-li-footer-sub"><a class="text-white" href="#home">Home</a></li>
+                    <li class="text-li-footer-sub"><a class="text-white" href="#about_us">About Us</a></li>
+                    <li class="text-li-footer-sub"><a class="text-white" href="#services">Services</a></li>
+                    <li class="text-li-footer-sub"><a class="text-white" href="#projects">Projects</a></li>
+                    </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-none d-md-block">
                 <div class="text-li-footer-main">Pages</div>
                 <ul class="list-unstyled mt-4">
-                    <li class="text-li-footer-sub"><a class="text-white" href="#">Feedback</a></li>
-                    <li  class="text-li-footer-sub"><a class="text-white" href="#">Contact Us</a></li>
-                    {{-- <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li> --}}
+                    <li class="text-li-footer-sub"><a class="text-white" href="#contact_us">Contact Us</a></li>
+                    <li class="text-li-footer-sub"><a class="text-white" href="#asked">Questions</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4 d-flex justify-content-end  d-none d-md-block">
                 <div class="text-li-footer-main">Contact Information</div>
                 <ul class="list-unstyled mt-4">
                     <li  class="text-li-footer-sub"><a class="text-white" href="#"><img src="{{ asset('images/sms.png') }}"
-                                width='24px' height='24px' class="img-fluid mt-3 mb-3"> info@lxdyi.com</a></li>
+                                width='24px' height='24px' class="img-fluid mt-3 mb-3"> mg01004428309@gmail.com</a></li>
                     <li  class="text-li-footer-sub"><a class="text-white" href="#"><img src="{{ asset('images/call.png') }}"
-                                width='24px' height='24px' class="img-fluid mt-3 mb-3"> +20102055943</a></li>
+                                width='24px' height='24px' class="img-fluid mt-3 mb-3"> 01068667093</a></li>
                 </ul>
             </div>
         </div>

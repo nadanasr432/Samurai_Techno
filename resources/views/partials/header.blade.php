@@ -1,5 +1,5 @@
-<section class="header"
-    style=" background-image: url('{{ asset('images/header.png') }}'); background-repeat: no-repeat; background-size: cover; background-position: center; height:710px;">
+<section class="header" id="home"
+    style="background-image: url('{{ asset('images/header.png') }}'); background-repeat: no-repeat; background-size: cover; background-position: center; height:710px;">
     <div class="container container-header">
         <!-- resources/views/partials/header.blade.php -->
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent d-flex justify-content-between">
@@ -15,19 +15,22 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav" style="gap: 30px;">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="#about_us">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Testimonials</a>
+                        <a class="nav-link" href="#contact_us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#asked">Questions</a>
                     </li>
                 </ul>
             </div>
@@ -37,12 +40,14 @@
         </nav>
         <div class="row mt-4">
             <div class="col-md-12 mt-5">
-                <div class="text_small">Welcome To<span class="custom-color"> Consultify Arabia</span></div>
-                <div class="text_large mt-4">Turn your idea into reality With <br> Consultify Arabia</div>
-                <div class="text_avarage mt-4">we provide custom services to convert your idea into reality with <br>
-                    Consultify Arabia , start from ui
-                    services to puplish it..</div>
-                <div class="col-md-12 mt-5 d-flex justify-content-start gap-25 pl-0">
+                <div class="text_small animate fadeInUp">Welcome To<span class="custom-color"> Consultify Arabia</span>
+                </div>
+                <div class="text_large mt-4 animate fadeInUp delay-1s">Turn your idea into reality With <br> Consultify
+                    Arabia</div>
+                <div class="text_avarage mt-4 animate fadeInUp delay-2s">we provide custom services to convert your idea
+                    into reality <br>with
+                    Consultify Arabia, start from ui services to publish it..</div>
+                <div class="col-md-12 mt-5 d-flex justify-content-start gap-25 pl-0 animate fadeInUp delay-3s">
                     <button class="btn btn-primary btn-custom-red">
                         <span class="mt-5 mb-5"> Get In Touch </span>
                     </button>
