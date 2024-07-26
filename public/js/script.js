@@ -45,20 +45,20 @@
             });
         }
 
-        document.addEventListener('DOMContentLoaded', function() {
-            const section = document.getElementById('about_us');
-            const textContainer = document.querySelector('.text-container');
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     const section = document.getElementById('about_us');
+        //     const textContainer = document.querySelector('.text-container');
 
-            function checkVisibility() {
-                const rect = section.getBoundingClientRect();
-                if (rect.top < window.innerHeight && rect.bottom >= 0) {
-                    section.classList.add('animate');
-                    textContainer.classList.add('animate');
-                }
-            }
-            window.addEventListener('scroll', checkVisibility);
-            checkVisibility();
-        });
+        //     function checkVisibility() {
+        //         const rect = section.getBoundingClientRect();
+        //         if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        //             section.classList.add('animate');
+        //             textContainer.classList.add('animate');
+        //         }
+        //     }
+        //     window.addEventListener('scroll', checkVisibility);
+        //     checkVisibility();
+        // });
 
         document.querySelectorAll('.gallery-item').forEach(container => {
             container.addEventListener('click', () => {
