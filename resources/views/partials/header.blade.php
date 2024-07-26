@@ -1,7 +1,6 @@
 <section class="header" id="home"
     style="background-image: url('{{ asset('images/header.png') }}'); background-repeat: no-repeat; background-size: cover; background-position: center; height:710px;">
     <div class="container container-header">
-        <!-- resources/views/partials/header.blade.php -->
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent d-flex justify-content-between">
             <a class="navbar-brand" href="#">
                 <div class="d-flex justify-content-start">
