@@ -14,7 +14,7 @@
                             Us</span>
                     </div>
                     <div class="text-about_us mb-4">
-                        Designing the Future <br>with <span class="main-color">Consultify Arabia<span>
+                        Designing the Future <br>with <span class="main-color">Samurai Techno<span>
                     </div>
                     <div class="text-about_us-mini mt-3">
                         we are Agency that Providing Digital Services and convert any idea to reality starting from scratch
@@ -171,24 +171,24 @@
             <div id="web" class="image-container mb-4">
                 <div class="row mb-4 d-flex justify-content-center">
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/aknana1.jpg') }}" width="100%" class="img-fluid">
                     </div>
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_2.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/aknana2.jpg') }}" width="100%" class="img-fluid">
                     </div>
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_3.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/aknana3.jpg') }}" width="100%" class="img-fluid">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_4.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/araby1.jpg') }}" width="100%" class="img-fluid">
                     </div>
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_5.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/araby2.jpg') }}" width="100%" class="img-fluid">
                     </div>
                     <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
+                        <img src="{{ asset('images/araby3.jpg') }}" width="100%" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -281,8 +281,9 @@
                         Contact<span class="text-dark"> Us & We Can Work Together</span>
                     </div>
                     <div class="text-contact_us-mini mt-3">
-                        Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar.
-                        Tristique consectetur mi curabitur congue enim dignissim
+                        At Samurai Techno, we believe in creating technology that makes a difference. Whether you have a
+                        question, need support, or want to discuss a new project, our team is here to help.
+                        Reach out to us and let’s shape the future together!
                     </div>
                     <form class="contact-form mt-5" action="#">
                         <input name="name" type="text" placeholder="Your Name" id="name"

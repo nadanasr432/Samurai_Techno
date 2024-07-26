@@ -7,7 +7,7 @@
                     <img src="{{ asset('images/logo.jpg') }}" width='110px' height='110px' class="img-fluid">
                 </div>
                 <div class="mt-4 d-flex justify-content-start text-left text-footer-1">Convert your idea to reality with
-                    Consultify Arabia<br>Agency we provide custom services to help
+                   Samurai Techno<br>Agency we provide custom services to help
                     you<br>in your dream contact with us now..</div>
                 <ul class="list-unstyled d-flex justify-content-left pr-0 pl-0 mt-4">
                     <li class="custom-li"><a href="#"><img src="{{ asset('images/Facebook.png') }}" width='10px'
@@ -36,7 +36,7 @@
                     <li class="text-li-footer-sub"><a class="text-white" href="#asked">Questions</a></li>
                 </ul>
             </div>
-            <div class="col-md-4 d-flex justify-content-end  d-none d-md-block">
+            <div class="col-md-4 d-none d-md-block align-items-end">
                 <div class="text-li-footer-main">Contact Information</div>
                 <ul class="list-unstyled mt-4">
                     <li  class="text-li-footer-sub"><a class="text-white" href="#"><img src="{{ asset('images/sms.png') }}"

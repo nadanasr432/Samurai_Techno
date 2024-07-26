@@ -34,19 +34,19 @@
                     </li>
                 </ul>
             </div>
-            <button class="btn btn-primary btn-contact-red">
+            <a href="#contact_us" class="btn btn-primary btn-contact-red">
                 Contact Us
-            </button>
+            </a>
         </nav>
         <div class="row mt-4">
             <div class="col-md-12 mt-5">
-                <div class="text_small animate fadeInUp">Welcome To<span class="custom-color"> Consultify Arabia</span>
+                <div class="text_small animate fadeInUp">Welcome To<span class="custom-color"> Samurai Techno</span>
                 </div>
-                <div class="text_large mt-4 animate fadeInUp delay-1s">Turn your idea into reality With <br> Consultify
-                    Arabia</div>
+                <div class="text_large mt-4 animate fadeInUp delay-1s">Turn your idea into reality With <br>  Samurai Techno
+                    </div>
                 <div class="text_avarage mt-4 animate fadeInUp delay-2s">we provide custom services to convert your idea
                     into reality <br>with
-                    Consultify Arabia, start from ui services to publish it..</div>
+                    Samurai Techno, start from ui services to publish it..</div>
                 <div class="col-md-12 mt-5 d-flex justify-content-start gap-25 pl-0 animate fadeInUp delay-3s">
                     <button class="btn btn-primary btn-custom-red">
                         <span class="mt-5 mb-5"> Get In Touch </span>
