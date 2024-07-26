@@ -269,6 +269,52 @@
             </div>
         </div>
     </section>
+    <section class="mt-5 mb-5" id="clients">
+        <div class="container container-header">
+            <div class="row d-flex justify-content-center text-center mb-4">
+                <div class="col-md-12 mb-4 d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('images/Line_gray.png') }}" width='143px' class="img-fluid">
+                    <span class="about_us">Our</span>
+                    <span class="about_us text-dark">Clients</span>
+                    <img src="{{ asset('images/Line_gray.png') }}" width='143px' class="img-fluid">
+                </div>
+                <div class="col-md-5 text-about_us mb-4 text-center">
+                    Our<span class="main-color">Clients</span>
+                </div>
+                <div class="col-md-12 mt-4 image-container d-flex justify-content-between mb-4">
+                    <div class="col-md-2"><img src="{{ asset('images/img_1.png') }}" class="img-fluid" alt="Image 1">
+                    </div>
+                    <div class="col-md-2"><img src="{{ asset('images/img_2.png') }}" class="img-fluid" alt="Image 2">
+                    </div>
+                    <div class="col-md-2"><img src="{{ asset('images/img_3.png') }}" class="img-fluid" alt="Image 3">
+                    </div>
+                    <div class="col-md-2"><img src="{{ asset('images/img_4.png') }}" class="img-fluid" alt="Image 4">
+                    </div>
+                    <div class="col-md-2"><img src="{{ asset('images/img_5.png') }}" class="img-fluid" alt="Image 5">
+                    </div>
+                    <div class="col-md-2"><img src="{{ asset('images/img_6.png') }}" class="img-fluid" alt="Image 6">
+                    </div>
+                </div>
+
+                <div class="col-md-12 mt-4 image-container d-flex justify-content-between">
+                    <div class="col-md-1"><img src="{{ asset('images/img_7.png') }}" class="img-fluid" alt="Image 7">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_8.png') }}" class="img-fluid" alt="Image 8">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_9.png') }}" class="img-fluid" alt="Image 9">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_10.png') }}" class="img-fluid" alt="Image 10">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_11.png') }}" class="img-fluid" alt="Image 11">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_12.png') }}" class="img-fluid" alt="Image 12">
+                    </div>
+                    <div class="col-md-1"><img src="{{ asset('images/img_13.png') }}" class="img-fluid" alt="Image 13">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="mt-5 " id="contact_us" style="background-color:#F1F1F1;">
         <div class="container container-header">
             <div class="row d-flex justify-content-between pl-5 pr-5">

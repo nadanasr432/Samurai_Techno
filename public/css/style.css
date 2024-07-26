@@ -830,3 +830,27 @@ html {
 .scroll-to-top:hover img {
     transform: translateY(-5px);
 }
+
+   @media (min-width: 576px) {
+
+       /* Small devices (landscape phones, 576px and up) */
+       .col-md-2,
+       .col-md-1 {
+           flex: 0 0 auto;
+           width: 16.66667%;
+       }
+   }
+
+   @media (min-width: 768px) {
+
+       /* Medium devices (tablets, 768px and up) */
+       .col-md-2 {
+           flex: 0 0 auto;
+           width: 16.66667%;
+       }
+
+       .col-md-1 {
+           flex: 0 0 auto;
+           width: 14.28571%;
+       }
+   }
