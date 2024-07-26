@@ -18,7 +18,6 @@
     <main>
         @yield('content')
     </main>
-    <!-- Fixed Scroll to Top Button -->
     <a href="#home" class="scroll-to-top">
         <img src="{{ asset('images/top_btn.png') }}" alt="Scroll to Top" width="300px" class="img-fluid">
     </a>
@@ -35,7 +34,7 @@
             var containers = document.querySelectorAll('.image-container');
             containers.forEach(container => {
                 container.classList.remove('active');
-                container.style.opacity = 0; 
+                container.style.opacity = 0;
             });
 
             var selectedContainer = document.getElementById(containerId);
@@ -48,7 +47,7 @@
                     delay: 300,
                     easing: 'ease-in-out',
                     afterReveal: function(el) {
-                        el.style.opacity = 1; 
+                        el.style.opacity = 1;
                     }
                 });
             }
@@ -89,7 +88,7 @@
                 }
             }
             window.addEventListener('scroll', checkVisibility);
-            checkVisibility(); 
+            checkVisibility();
         });
 
         document.querySelectorAll('.gallery-item').forEach(container => {
@@ -103,13 +102,13 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('animate');
-                        observer.unobserve(entry.target); 
+                        observer.unobserve(entry.target);
                     }
                 });
             }
 
             const observer = new IntersectionObserver(handleIntersection, {
-                threshold: 0.1 
+                threshold: 0.1
             });
 
             const elements = document.querySelectorAll('.animate');
@@ -130,7 +129,7 @@
         const sr = ScrollReveal({
             reset: true,
             mobile: true,
-            duration: 2000, 
+            duration: 2000,
             easing: 'ease-out',
         });
 
@@ -152,8 +151,8 @@
 
         sr.reveal('#projects', {
             opacity: 0,
-            delay: 200, 
-            duration: 1000, 
+            delay: 200,
+            duration: 1000,
             easing: 'ease-in-out',
             afterReveal: function(el) {
                 el.style.opacity = 1;
@@ -162,23 +161,23 @@
 
         sr.reveal('.image-container', {
             opacity: 0,
-            origin: 'bottom', 
-            distance: '20px', 
-            delay: 300, 
-            duration: 600, 
+            origin: 'bottom',
+            distance: '20px',
+            delay: 300,
+            duration: 600,
             easing: 'ease-in-out',
             afterReveal: function(el) {
-                el.style.opacity = 1; 
+                el.style.opacity = 1;
             }
         });
 
         sr.reveal('.btn.custom-button', {
             opacity: 0,
-            delay: 400, 
-            duration: 600, 
+            delay: 400,
+            duration: 600,
             easing: 'ease-in-out',
             afterReveal: function(el) {
-                el.style.opacity = 1; 
+                el.style.opacity = 1;
             }
         });
 
@@ -235,7 +234,7 @@
         sr.reveal('.text_small', {
             origin: 'bottom',
             distance: '20px',
-            delay: 0, 
+            delay: 0,
             opacity: 0,
             duration: 1000,
             easing: 'ease-in-out'
@@ -253,7 +252,7 @@
         sr.reveal('.text_avarage', {
             origin: 'bottom',
             distance: '20px',
-            delay: 2000, 
+            delay: 2000,
             opacity: 0,
             duration: 1000,
             easing: 'ease-in-out'
@@ -262,7 +261,7 @@
         sr.reveal('.btn-custom-red', {
             origin: 'bottom',
             distance: '20px',
-            delay: 3000, 
+            delay: 3000,
             opacity: 0,
             duration: 1000,
             easing: 'ease-in-out'
@@ -278,12 +277,12 @@
         });
         ScrollReveal().reveal('.nav-link', {
             origin: 'left',
-            distance: '50px', 
-            duration: 1000, 
-            delay: 200, 
-            opacity: 0, 
+            distance: '50px',
+            duration: 1000,
+            delay: 200,
+            opacity: 0,
             easing: 'ease-in-out',
-            interval: 200 
+            interval: 200
         });
     </script>
 </body>
