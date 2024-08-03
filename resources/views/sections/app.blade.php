@@ -331,12 +331,12 @@
                         question, need support, or want to discuss a new project, our team is here to help.
                         Reach out to us and let’s shape the future together!
                     </div>
-                    <form class="contact-form mt-5" action="#">
-                        <input name="name" type="text" placeholder="Your Name" id="name"
+                    <form class="contact-form mt-5" action="{{ route('contact_us.store') }}" method="POST">
+                        @csrf <input name="name" type="text" placeholder="Your Name" id="name"
                             class="form-control mb-3">
                         <input name="email" type="email" placeholder="Your Email" id="email"
                             class="form-control mb-3">
-                        <textarea name="message" placeholder="Your Message" id="message" class="form-control mb-3"></textarea>
+                        <textarea name="text" placeholder="Your Message" id="text" class="form-control mb-3"></textarea>
                         <div class="mt-3">
                             <button type="submit" class="btn btn-primary btn-contact-red">
                                 Get In Touch
