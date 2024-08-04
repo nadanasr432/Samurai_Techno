@@ -22,9 +22,11 @@
                         Skilled in creating creative designs and have abiltity to convert it to real prodcut.
                     </div>
                     <div class="mt-3">
-                        <button class="btn btn-primary btn-contact-red" style="width: 30%">
-                            Get In Touch
-                        </button>
+                        <a href="#contact_us">
+                            <button class="btn btn-primary btn-contact-red" style="width: 30%">
+                                Get In Touch
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -49,73 +51,87 @@
                         Skilled in <br>creating creative designs and have <br>abiltity to convert it to real prodcut.
                     </div>
                     <div class="mt-3">
-                        <button class="btn btn-primary btn-contact-red">
-                            Get In Touch
-                        </button>
+                        <a href="#contact_us">
+                            <button class="btn btn-primary btn-contact-red">
+                                Get In Touch
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-7 d-flex justify-content-end mt-5 pr-5">
                     <div class="image-gallery">
                         <div class="row no-gutters mt-5">
                             <div class="col-md-4">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_5.png') }}" class="img-fluid" alt="Image 1">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>Web Develpoment</p>
+                                <a href="{{ route('web.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_5.png') }}" class="img-fluid" alt="Image 1">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>Web Develpoment</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_2.png') }}" class="img-fluid" alt="Image 4">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>Mobile App</p>
+                                </a>
+                                <a href="{{ route('mobile.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_2.png') }}" class="img-fluid" alt="Image 4">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>Mobile App</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-4">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_4.png') }}" class="img-fluid" alt="Image 2">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>Ui/Ux</p>
+                                <a href="{{ route('uiux.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_4.png') }}" class="img-fluid" alt="Image 2">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>Ui/Ux</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_1.png') }}" class="img-fluid" alt="Image 5">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>Graphic Design</p>
+                                </a>
+                                <a href="{{ route('graphic.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_1.png') }}" class="img-fluid" alt="Image 5">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>Graphic Design</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-4">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_3.png') }}" class="img-fluid" alt="Image 3">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>DevOps</p>
+                                <a href="{{ route('devops.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_3.png') }}" class="img-fluid" alt="Image 3">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>DevOps</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/macit_3.png') }}" class="img-fluid" alt="Image 6">
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <span class="arrow">&#8250;</span>
-                                            <p>Testing</p>
+                                </a>
+                                <a href="{{ route('testing.index') }}">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('images/macit_3.png') }}" class="img-fluid" alt="Image 6">
+                                        <div class="overlay">
+                                            <div class="text">
+                                                <span class="arrow">&#8250;</span>
+                                                <p>Testing</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -145,126 +161,156 @@
             </div>
             <div id="uiux" class="image-container mb-4 active">
                 <div class="row mb-4 d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_2.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_3.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($ui_ux->take(3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_4.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_5.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($ui_ux->slice(3, 3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
 
             <div id="web" class="image-container mb-4">
                 <div class="row mb-4 d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/aknana1.jpg') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/aknana2.jpg') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/aknana3.jpg') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($web->take(3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/araby1.jpg') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/araby2.jpg') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/araby3.jpg') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($web->slice(3, 3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
 
             <div id="mobile" class="image-container mb-4">
                 <div class="row mb-4 d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_2.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_3.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($mobile->take(3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_4.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_5.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($mobile->slice(3, 3) as $project)
+                        <div
+                            class="col-md-3 col-6 mb-3 d-flex {{ $loop->first ? 'justify-content-end' : ($loop->last ? 'justify-content-start' : 'justify-content-center') }}">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
+
 
             <div id="graphic" class="image-container mb-4">
                 <div class="row mb-4 d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_2.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_3.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($graphic->take(3) as $project)
+                        <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_4.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_5.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($graphic->slice(3, 3) as $project)
+                        <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
 
+
             <div id="devops" class="image-container mb-4">
                 <div class="row mb-4 d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_2.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_3.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($devOps->take(3) as $project)
+                        <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
+                </div>
+                <div class="row mb-4 d-flex justify-content-center">
+                    @foreach ($devOps->slice(3, 3) as $project)
+                        <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-end">
-                        <img src="{{ asset('images/macit_4.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                        <img src="{{ asset('images/macit_5.png') }}" width="100%" class="img-fluid">
-                    </div>
-                    <div class="col-md-3 col-6 mb-3 d-flex justify-content-start">
-                        <img src="{{ asset('images/macit_1.png') }}" width="100%" class="img-fluid">
-                    </div>
+                    @foreach ($devOps->slice(6, 3) as $project)
+                        <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
+                            @if ($project->media->isNotEmpty())
+                                <img src="{{ Storage::url($project->media->first()->file_path) }}" width="100%"
+                                    class="img-fluid" alt="{{ $project->name }} Image">
+                            @else
+                                <p>No Image</p>
+                            @endif
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -338,9 +384,9 @@
                             class="form-control mb-3">
                         <textarea name="text" placeholder="Your Message" id="text" class="form-control mb-3"></textarea>
                         <div class="mt-3">
-                            <button type="submit" class="btn btn-primary btn-contact-red">
-                                Get In Touch
-                            </button>
+                                <button type="submit" class="btn btn-primary btn-contact-red">
+                                    Get In Touch
+                                </button>
                         </div>
                     </form>
                 </div>

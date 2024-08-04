@@ -21,6 +21,12 @@
     <a href="#home" class="scroll-to-top">
         <img src="{{ asset('images/top_btn.png') }}" alt="Scroll to Top" width="300px" class="img-fluid">
     </a>
+   
+    <!-- WhatsApp Icon -->
+    <a href="https://wa.me/{{ $contact->phone }}" class="whatsapp-icon" target="_blank">
+        <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" width="50px" class="img-fluid">
+    </a>
+
 
     <footer>
         @include('partials.footer')

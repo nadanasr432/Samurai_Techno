@@ -2,7 +2,7 @@
 
 @section('content')
     <h2>Edit Project</h2>
-    <form action="{{ route('projects.update', $project->id) }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('projects.project.update', $project->id) }}" method="POST" enctype="multipart/form-data">
         @csrf
         @method('PUT')
         <div class="form-group">

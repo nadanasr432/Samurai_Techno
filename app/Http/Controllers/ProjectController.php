@@ -41,17 +41,45 @@ class ProjectController extends Controller
         $projects = Project::where('type', ProjectTypesEnum::GRAPHIC->value)->get();
         return view('dashboard.projects.graphic.index', compact('projects'));
     }
+    public function list_of_devOps()
+    {
+        $projects = Project::where('type', ProjectTypesEnum::DEVOPS->value)->get();
+        return view('projects.devOps', compact('projects'));
+    }
 
-    public function UIUX()
+    public function list_of_web()
+    {
+        $projects = Project::where('type', ProjectTypesEnum::WEB->value)->get();
+        return view('projects.web', compact('projects'));
+    }
+
+    public function list_of_mobile()
+    {
+        $projects = Project::where('type', ProjectTypesEnum::MOBILE->value)->get();
+        return view('projects.mobile', compact('projects'));
+    }
+
+    public function list_of_graphic()
+    {
+        $projects = Project::where('type', ProjectTypesEnum::GRAPHIC->value)->get();
+        return view('projects.graphic', compact('projects'));
+    }
+
+    public function list_of_UIUX()
     {
         $projects = Project::where('type', ProjectTypesEnum::UI_UX->value)->get();
-        return view('dashboard.projects.uiux.index', compact('projects'));
+        return view('projects.ui_ux', compact('projects'));
     }
 
     public function testing()
     {
         $projects = Project::where('type', ProjectTypesEnum::TESTING->value)->get();
         return view('dashboard.projects.testing.index', compact('projects'));
+    }
+    public function list_of_testing()
+    {
+        $projects = Project::where('type', ProjectTypesEnum::TESTING->value)->get();
+        return view('projects.testing', compact('projects'));
     }
 
     /**
@@ -162,7 +190,7 @@ class ProjectController extends Controller
             ]);
         }
 
-        return back()->with('success', 'Project updated successfully.');
+        return redirect()->route('projects.project.index')->with('success', 'Project updated successfully.');
     }
 
     /**
