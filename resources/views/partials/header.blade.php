@@ -56,7 +56,7 @@
                             <span class="mt-5 mb-5"> Get In Touch </span>
                         </button>
                     </a>
-                    <a href="#services">
+                    <a href="#projects">
                         <button class="btn btn-primary btn-custom-white">
                             View Portfolio
                         </button>
