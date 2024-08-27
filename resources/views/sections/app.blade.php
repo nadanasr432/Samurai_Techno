@@ -405,7 +405,7 @@
                 <div class="col-md-12 d-flex flex-column align-items-center mt-3">
                     <div class="faq-item">
                         <div class="dropdown-header" onclick="toggleDropdown(this)">
-                            <div class="mt-4">What services does Samurai Techno offer?</div>
+                            <div class="mt-4 pl-3 pr-3">What services does Samurai Techno offer?</div>
                             <img src="{{ asset('images/Vector_2.png') }}" class="dropdown-icon closed">
                             <img src="{{ asset('images/Vector_1.png') }}" class="dropdown-icon open">
                         </div>
@@ -416,7 +416,7 @@
                     </div>
                     <div class="faq-item">
                         <div class="dropdown-header" onclick="toggleDropdown(this)">
-                            <div class="mt-4">How can I get in touch with Samurai Techno?</div>
+                            <div class="mt-4 pl-3 pr-3">How can I get in touch with Samurai Techno?</div>
                             <img src="{{ asset('images/Vector_2.png') }}" class="dropdown-icon closed">
                             <img src="{{ asset('images/Vector_1.png') }}" class="dropdown-icon open">
                         </div>
@@ -427,7 +427,7 @@
                     </div>
                     <div class="faq-item">
                         <div class="dropdown-header" onclick="toggleDropdown(this)">
-                            <div class="mt-4">Can I request a custom feature for my project?</div>
+                            <div class="mt-4 pl-3 pr-3">Can I request a custom feature for my project?</div>
                             <img src="{{ asset('images/Vector_2.png') }}" class="dropdown-icon closed">
                             <img src="{{ asset('images/Vector_1.png') }}" class="dropdown-icon open">
                         </div>
@@ -438,7 +438,7 @@
                     </div>
                     <div class="faq-item">
                         <div class="dropdown-header" onclick="toggleDropdown(this)">
-                            <div class="mt-4">Do you offer support after project completion?</div>
+                            <div class="mt-4 pl-3 pr-3">Do you offer support after project completion?</div>
                             <img src="{{ asset('images/Vector_2.png') }}" class="dropdown-icon closed">
                             <img src="{{ asset('images/Vector_1.png') }}" class="dropdown-icon open">
                         </div>
