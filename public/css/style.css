@@ -7,6 +7,20 @@
     text-align: left;
     color: #fff;
 }
+/* For mobile devices */
+@media (max-width: 767px) {
+
+    .btn-custom-red,
+    .btn-custom-white {
+        font-size: 12px !important;
+        /* Adjust font size for smaller screens */
+        padding: 5px 10px;
+        /* Adjust padding for smaller buttons */
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+    }
+}
+
 
 .text_large {
     font-family: Poppins;
