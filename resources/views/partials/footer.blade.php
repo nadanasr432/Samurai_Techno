@@ -19,7 +19,7 @@
                                 width='10px' class="img-fluid mt-3 mb-3"></a></li>
                     <li class="custom-li"><a href="#"><img src="{{ asset('images/Twitter.png') }}" width='15px'
                                 class="img-fluid mt-3 mb-3"></a></li>
-                    <li class="custom-li"><a href="https://www.linkedin.com/company/samurai-techno/"><img src="{{ asset('images/LinkedIn.png') }}" width='15px'
+                    <li class="custom-li"><a href="https://www.linkedin.com/company/samurai-tecno/"><img src="{{ asset('images/LinkedIn.png') }}" width='15px'
                                 class="img-fluid mt-3 mb-3"></a></li>
                 </ul>
             </div>
